@@ -17,7 +17,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_model('C:/Users/Aidan/Important/MLAI_Project/MLAI_Project/Models/model01_theyan.h5') #loading a trained model
+model = tf.keras.models.load_model('C:/Users/Aidan/Important/MLAI_Project/MLAI_Project/Models/model02_theyan.h5') #loading a trained model
 
 st.write("""
          # Rock-Paper-Scissor Hand Sign Prediction
