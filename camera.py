@@ -28,7 +28,7 @@ def import_and_predict(image_data, model):
 
 
 
-model = tf.keras.models.load_model('C:/Users/Aidan/Important/MLAI_Project/MLAI_Project/Models/model01_theyan.h5')
+model = tf.keras.models.load_model('C:/Users/Aidan/Important/MLAI_Project/MLAI_Project/Models/model03_theyan.h5')
 
     
 cap = cv2.VideoCapture(0)
